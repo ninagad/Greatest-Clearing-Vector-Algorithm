@@ -1,7 +1,7 @@
 # Greatest-Clearing-Vector-Algorithm
 Implementation and evaluation of the Greatest Clearing Vector Algorithm by Rogers, L. C. G., and L. A. M. Veraart in “Failure and Rescue in an Interbank Network."
 
-This repository is a part of our bachelor's thesis in Computer Science at Aarhus University. 
+This repository is a part of our bachelor's thesis in Computer Science at Aarhus University written by Nina Gad Lauridsen and Pi Gregersen Bohlbro. 
 
 
 ## Requirements installation
@@ -38,6 +38,19 @@ In the second test setup the external asset coefficient $t$ varies in the interv
 
 In the last test we want to study the distribution of the insolvency levels as it is defined by Rogers and Veraart. In this setup $p$ varies in the interval $[0.01, 0.1]$ with $t=20$. We consider 10 evenly distributed values of $p$ and for each value we generate a network with our network generator and run the greatest clearing vector algorithm for each. We save how many \emph{level-}$\mu$ insolvent banks there are in each network for all levels $\mu$. The graph have a box plot for each network which show how the insolvent banks are distributed across the insolvency levels. 
 
-**Disclaimer**
 
-We are not liable for any code in this repository and if you use anything from the repository it is not our responsibility. 
+## Our results
+These are the results we produced and we invite you to try to reproduce these results. 
+
+![defaults-p]{https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/p-no-of-insolvent-plot.png}
+
+![systemic-liquidity-p]{https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/p-size-of-gcv-plot.png}
+
+![insolvency-lvls-p]{https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/p-insolvency-levels-boxplot.png}
+
+![defaults-t]{https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/t-no-of-insolvent-plot.png}
+
+
+### Disclaimer
+
+As the authors of this repository we are not liable for any of the code nor the correctness of this implementation. 
