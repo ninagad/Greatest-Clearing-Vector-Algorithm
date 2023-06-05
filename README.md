@@ -3,6 +3,27 @@ Implementation and evaluation of the Greatest Clearing Vector Algorithm by Roger
 
 This repository is a part of our bachelor's thesis in Computer Science at Aarhus University. 
 
+
+# Requirements installation
+
+Installing requirements using the package manager [pip](https://pip.pypa.io/en/stable/).
+
+```bash
+pip install -r requirements.txt
+```
+
+## How to reproduce results
+
+To reproduce the results from the evaluation tests
+- Clone the repository
+- Install the dependencies (see above)
+- Run `python -m unittest test.evaluation`
+- Run `python plots.py` in test directory
+- See resulting graphs in test/results directory
+
+
+## General description
+
 We have implemented the greatest clearing vector algorithm and have a few tests to test correctness of our implementation. 
 
 Moreover, we have developed a simple probabilistic model of a financial network. In this model we have parameter $n$, which denotes the number of banks in the network. Parameter $p$ denotes the probability that bank $i$ owes bank $j$ money. If a liability exists the size of it is uniformly distributed in the interval [0,1]. The parameter $t$ is the external asset coefficient. For each bank $i$ the amount of external assets is uniformly distributed in [0,t]. As in Rogers and Veraart's model we use $\alpha$ to denote the default cost for the external assets and $\beta$ to denote the default cost for the internal assets. We use this model to create a network generator that can create random networks based on the five parameters $n$, $p$, $t$, $\alpha$ and $\beta$. This enables us to make tests based on a large amount of networks which reduces the effect of outliers. These tests investigate how the greatest clearing vector algorithm behave. 
