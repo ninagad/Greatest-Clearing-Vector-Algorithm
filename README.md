@@ -19,7 +19,7 @@ To reproduce the results from the evaluation tests
 - Install the dependencies (see above)
 - Run `python -m unittest test.evaluation`
 - Run `python plots.py` in test directory
-- See resulting graphs in test/results directory
+- See resulting graphs in `test/results directory`
 
 
 ## General description
