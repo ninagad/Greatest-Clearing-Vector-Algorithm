@@ -4,7 +4,7 @@ Implementation and evaluation of the Greatest Clearing Vector Algorithm by Roger
 This repository is a part of our bachelor's thesis in Computer Science at Aarhus University. 
 
 
-# Requirements installation
+## Requirements installation
 
 Installing requirements using the package manager [pip](https://pip.pypa.io/en/stable/).
 
