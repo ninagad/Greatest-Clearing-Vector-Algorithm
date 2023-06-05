@@ -12,7 +12,7 @@ Installing requirements using the package manager [pip](https://pip.pypa.io/en/s
 pip install -r requirements.txt
 ```
 
-## How to reproduce results
+## How to reproduce the results
 
 To reproduce the results from the evaluation tests
 - Clone the repository
