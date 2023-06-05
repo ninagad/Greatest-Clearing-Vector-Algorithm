@@ -42,18 +42,23 @@ In the last test we want to study the distribution of the insolvency levels as i
 ## Our results
 These are the results we produced and we invite you to try to reproduce these results. 
 
-<img src="https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/p-no-of-insolvent-plot.png" width ="100">
+<p align="center">
+  <img src="https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/p-no-of-insolvent-plot.png" width ="700">
+</p>
 
-
-![systemic-liquidity-p](https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/p-size-of-gcv-plot.png)
-
-
-![insolvency-lvls-p](https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/p-insolvency-levels-boxplot.png)
-
-
-![defaults-t](https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/t-no-of-insolvent-plot.png)
-
+<p align="center">
+  <img src="https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/p-size-of-gcv-plot.png" width="700">
+</p>
+  
+<p align="center">
+  <img src="https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/p-insolvency-levels-boxplot.png" width="700">
+</p>
+  
+<p align="center">
+  <img src="https://github.com/ninagad/Greatest-Clearing-Vector-Algorithm/blob/main/test/results/t-no-of-insolvent-plot.png" width="700">
+</p>
+  
 
 ### Disclaimer
 
-**As the authors of this repository we are not liable for any use of the code nor the correctness of the code.** 
+**As the authors of this repository we are not liable for any use of the code nor the correctness of the code in this repository.** 
